@@ -1,1 +1,6 @@
-﻿#eka { float: left;} #toka {clear: both; float: right; }
+﻿
+#eka { float: left;}
+
+#toka {clear: both; float: right; }
+
+img { margin: 25px; }
