@@ -4,8 +4,7 @@ table {
 }
 
     table thead th, thead td {
-        background-color: #808080;
-        font-weight: bold;
+        background-color: #cbc9c9 
     }
 
     table td {
