@@ -1,0 +1,51 @@
+header {
+    height: 120px;
+    background: #ccc5b9;
+}
+
+body {
+    background-color: #403d39;
+}
+
+h1 {
+    color: #000;
+    padding: 22px 0 0 20px;
+}
+
+article {
+    width: 1310px;
+    background: #000;
+    display: inline;
+}
+
+    article p {
+        padding: 15px;
+        color: #fff;
+    }
+
+img {
+    padding: 15px;
+    float: right;
+}
+
+aside {
+    width: 1466px;
+    height: 500px;
+    background: #eb5e28;
+    float: center;
+    margin-top: -35px;
+}
+
+h2 {
+    color: #fff;
+    padding: 15px
+}
+
+h3 {
+    color: #fff;
+    padding: 10px 0 0 10px;
+}
+
+
+
+   

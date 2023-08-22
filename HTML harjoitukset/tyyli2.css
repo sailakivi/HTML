@@ -1,0 +1,60 @@
+header {
+    height: 100px;
+    background: #ffecd1;
+}
+body {
+    background-color: #4d194d;
+}
+h1 {
+    color: #000;
+    padding: 22px 0 0 20px;
+}
+section {
+    width: 1466px;
+    background: #312244;
+    margin-top: -20px;
+}
+
+article {
+    width: 1310px;
+    background: #000;
+    display: inline;
+}
+
+    article p {
+        padding: 10px;
+        color: #fff;
+    }
+
+#eka {
+    float: right;
+    margin: 30px;
+}
+
+#toka {
+    float: left;
+    margin: 15px;
+}
+
+aside {
+    width: 1466px;
+    height: 350px;
+    background: #15616d;
+    float: center;
+    margin-top: -35px;
+}
+
+h3 {
+    color: #fff;
+    padding: 10px 0 0 10px;
+}
+
+footer {
+    height: 1000px;
+    background: #ffecd1;
+    margin-top: -17px;
+}
+
+    footer p {
+        padding: 10px 0 0 10px;
+    }
