@@ -45,6 +45,7 @@ article {
 
     article p {
         padding: 10px;
+        margin-top: -20px
     }
 
 aside {
@@ -61,11 +62,12 @@ h3 {
 }
 
 footer {
-    height: 350px;
+    height: 370px;
     background: #ffecd1;
-    margin-top: -17px;
+    margin-top: -20px;
 }
 
     footer p {
         padding: 10px 0 0 10px;
+        margin-top: -20px
     }
