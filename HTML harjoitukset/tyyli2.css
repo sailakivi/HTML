@@ -49,6 +49,10 @@ h3 {
     padding: 10px 0 0 10px;
 }
 
+li {
+    color: #fff;
+}
+
 footer {
     height: 1000px;
     background: #ffecd1;
