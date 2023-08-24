@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Phudu:wght@300&family=Quicksand&family=Ubuntu&display=swap');
 h1 {
-    font-family: 'Comic Sans MS'
+    font-family: 'Comic Sans MS'   
 }
 h2 {
     font-family: 'Bookman Old Style'
 }
-p {
-    font-family: 'Segoe UI Historic'
+h2 {
+    color: #4cff00;
 }
-p1 {
-    font-family: 'Franklin Gothic'
-}
-p2 {
-    font-family: 
-}
-p3 {
 
+#eka{
+    font-family: 'Ubuntu', sans-serif; 
+}
+#toka{
+    font-family: 'Phudu', cursive;
+}
+#kolmas{
+    font-family: 'Quicksand', sans-serif;
+}
+#neljäs{
+    font-family: 'Chakra Petch', sans-serif;
 }
