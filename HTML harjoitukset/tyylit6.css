@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Phudu:wght@300&family=Quicksand&family=Ubuntu&display=swap');
 h1 {
-    font-family: 'Comic Sans MS'   
+    font-family: 'Comic Sans MS' 
+    
 }
+#otsikko {
+    color: #4cff00;
+}
+
 #e {
     color: #ff0000;
     font-size: 22px;
@@ -42,15 +47,13 @@ h1 {
     color: #0026ff;
     font-size: 21px;    
 }
+
 p {
     display: inline;
 }
 
 h2 {
     font-family: 'Bookman Old Style'
-}
-h2 {
-    color: #4cff00;
 }
 
 #eka{
