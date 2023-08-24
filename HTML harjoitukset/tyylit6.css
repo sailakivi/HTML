@@ -2,6 +2,50 @@
 h1 {
     font-family: 'Comic Sans MS'   
 }
+#e {
+    color: #ff0000;
+    font-size: 22px;
+}
+#t {
+    color: #ffd800;
+    font-size: 24px;
+}
+#k {
+    color: #4cff00;
+    font-size: 26px;
+}
+#n {
+    color: #808080;
+    font-size: 28px;
+}
+#v {
+    color: #000000;
+    font-size: 30px;
+}
+#ku {
+    color: #ff00dc;
+    font-size: 29px;
+}
+#s {
+    color: #ff6a00;
+    font-size: 27px;
+}
+#kah {
+    color: #b6ff00;
+    font-size: 25px;
+}
+#y {
+    color: #00ffff;
+    font-size: 23px;
+}
+#kym {
+    color: #0026ff;
+    font-size: 21px;    
+}
+p {
+    display: inline;
+}
+
 h2 {
     font-family: 'Bookman Old Style'
 }
