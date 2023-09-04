@@ -10,7 +10,7 @@ header {
 
 h1 {
     color: #000;
-    padding: 22px 0 0 20px;
+    padding: 20px 0 0 20px;
 }
 
 nav {
@@ -21,26 +21,25 @@ nav {
 }
 
     nav ul {
-        margin: 0 0 0 -10px;
+        margin: 0 0 0 15px;
     }
 
     nav li {
         float: left;
         list-style-type: none;
         padding: 0 10px;
-        color: #;
     }
 
 section {
     width: 800px;
     background: #FDC500;
-    margin-top;
-    -20px;
+    margin-top; 20px;
+    
 }
 
 h2 {
     color: #000;
-    padding: 10 px 0 0 10px;
+    padding: 10px 0 0 10px;
 }
 
 article {
@@ -57,7 +56,7 @@ aside {
     height: 502px;
     background: #003F88;
     float: right;
-    margin-top: -1px;
+    margin-top: 0px;
 }
 
 h3 {
@@ -78,7 +77,7 @@ footer {
 }
 
     footer p {
-        padding: 10px 0 0 10px;
+        padding: 10px 10px 10px 10px;
         color: #000;
     }
 
