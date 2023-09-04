@@ -31,7 +31,7 @@ nav {
     }
 
 section {
-    width: 800px;
+    width: 700px;
     background: #FDC500;
     margin-top; 20px;
     
@@ -43,7 +43,7 @@ h2 {
 }
 
 article {
-    width: 800px;
+    width: 900px;
     background: #003F88;
 }
 
@@ -53,7 +53,7 @@ article {
 
 aside {
     width: 200px;
-    height: 502px;
+    height: 300px;
     background: #003F88;
     float: right;
     margin-top: 0px;
@@ -72,8 +72,9 @@ aside article {
 
 footer {
     height: 40px;
+    width: 900px;
     background: #003F88;
-    margin-top: -16px;
+    margin-top: -10px;
 }
 
     footer p {
