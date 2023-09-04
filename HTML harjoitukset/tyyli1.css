@@ -1,35 +1,37 @@
 header {
-    height: 38px;
-    background: #ffd800;
+    height: 100px;
+    background: #d00000;
+    text-align: center;
 }
 body {
     background-color: #03071e;
 }
 h1 {
     color: #000;
-    padding: 30px 10px 10px 20px;
-    background: #d00000
+    padding: 30px 10px 10px 20px; 
 }
 
 h2 {
     color: #000;
-    padding: 10 px 0 0 10px;
+    padding: 10px 0 0 10px;
 }
 
 article {
     width: 1310px;
     background: #fff;
     display: inline;
+
 }
 
 aside {
-    width: 1465px;
+    width: 1400px;
     height: 500px;
     background: #ffba08;
     float: left;
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 20px;
 }
-  
+
 h3 {
     color: #000;
     padding: 10px 0 0 10px;

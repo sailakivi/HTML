@@ -1,5 +1,5 @@
 header {
-    height: 100px;
+    height: 140px;
     background: #ffecd1;
 }
 body {
@@ -38,7 +38,7 @@ article {
 
 aside {
     width: 1450px;
-    height: 350px;
+    height: 340px;
     background: #15616d;
     float: center;
     margin-top: -35px;
@@ -47,6 +47,10 @@ aside {
 h3 {
     color: #fff;
     padding: 10px 0 0 10px;
+}
+
+li {
+    color: #fff;
 }
 
 footer {
