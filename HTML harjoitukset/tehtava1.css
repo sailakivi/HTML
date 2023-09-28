@@ -1,0 +1,29 @@
+.content {
+    width: 50%;
+    padding: 15px;
+    margin: 15px;
+    margin-right: 15px;
+    float: center;
+}
+
+#yksi {
+    background-color: #ff6a00;
+}
+
+#kaksi {
+    background-color: #f10bfb;
+}
+
+#kolme {
+    background-color: #ffd800;
+}
+
+#neljä {
+    background-color: #808080;
+}
+
+#viisi {
+    background-color: #3ddbd6;
+}
+
+
