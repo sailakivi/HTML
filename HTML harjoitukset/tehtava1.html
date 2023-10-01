@@ -18,10 +18,10 @@
         <h1>Teht‰v‰ 1.</h1>
         <p>Anna kolme numeroa ja ohjelma laittaa ne j‰rjestykseen.</p>
         <form class="" action="index.html" method="post">
-            <p>1. numero: <input type="text" id="eka" value="" ></p>
-            <p>2. numero: <input type="text" id="toka" value="" ></p>
-            <p>3. numero: <input type="text" id="kolmas" value="" ></p>
-            <button type="button" name="button" onclick="jarjesta">J‰rjest‰ luvut.</button>
+            <p>Numero 1: <input type="text" id="eka" value="" ></p>
+            <p>Numero 2: <input type="text" id="toka" value="" ></p>
+            <p>Numero 3: <input type="text" id="kolmas" value="" ></p>
+            <button type="button" name="button" onclick="jarjesta()">J‰rjest‰ numerot.</button>
         </form>
     </article>
 
@@ -34,15 +34,15 @@
             <p>Luku 3. <input type="text" id="3" value=""></p>
             <p>Luku 4. <input type="text" id="4" value=""></p>
             <p>Luku 5. <input type="text" id="5" value=""></p>
-            <button type="button" name="button" onclick="etsi">Suurin numero.</button>
+            <button type="button" name="button" onclick="etsi()">Suurin numero.</button>
         </form>
     </article>
 
     <article class="content" id="kolme">
         <h1>Teht‰v‰ 3.</h1>
-        <p>anna luku ja ohjelma kertoo onko se parillinen vai pariton.</p>
+        <p>anna luku ja ohjelma kertoo onko se pariton vai parillinen.</p>
         <p>Anna luku. <input type="text" id="luku" value=""></p>
-        <button type="button" name="button" onclick="parillinen/pariton">Tarkista.</button>
+        <button type="button" name="button" onclick="paritonParillinen()">Tarkista.</button>
     </article>
 
     <article class="content" id="nelj‰">
@@ -50,7 +50,7 @@
         <p>Anna ik‰si ja ohjelma kertoo mit‰ ajoneuvoa saat ajaa: < 15v - polkupyˆr‰, < 18v - mopoa, muutoin autoa.</p>
         <form class="" action="index.html" method="post">
             <p>Anna ik‰si. <input type="text" id="ika" value=""></p>
-            <button type="button" name="button" onclick="ajoneuvo">Kerro ajoneuvo.</button>
+            <button type="button" name="button" onclick="ajoneuvo()">Kerro ajoneuvo.</button>
         </form>
     </article>
 
@@ -62,7 +62,7 @@
             <option value="swe">Ruotsi</option>
             <option value="esp">Espanja</option>
         </select>
-        <button type="button" id="button" onclick="kaanna">K‰‰nn‰.</button>
+        <button type="button" id="button" onclick="kaanna()">K‰‰nn‰.</button>
     </article>
 
 </body>
