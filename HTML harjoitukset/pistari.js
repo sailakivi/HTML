@@ -1,4 +1,4 @@
-function isompiPienempi() {
+function posiNega() {
     var luku;
     luku = parseInt(document.getElementById("luku").value);
     document.write("Antamasi luku" > 0 );
