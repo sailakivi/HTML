@@ -79,13 +79,13 @@ function paritonParillinen() {
     }
 }
 function ajoneuvo() {
-    var age = parseInt(document.getElementById("ika").value);
+    var ika = parseInt(document.getElementById("ika").value);
 
-    if (age < 16) {
+    if (ika < 16) {
         document.write("Voit ajaa polkupyörää");
     }
 
-    else if (age < 18) {
+    else if (ika < 18) {
         document.write("Voit ajaa mopoa");
     }
 
