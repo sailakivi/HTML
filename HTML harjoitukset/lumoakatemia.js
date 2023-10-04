@@ -43,5 +43,23 @@ kilometri = 1 ;
 maili = kilometri / 1.61;
 console.log(maili);
 
+let cm, inch;
+inch = 10;
+cm = inch * 2.54;
+console.log(cm);
 
+let sentit, tuumat;
+sentit = 10;
+tuumat = sentit / 2.54;
+console.log(tuumat);
+
+let yrd, m;
+yrd = 10;
+m = 0.91 * yrd;
+console.log(m);
+
+let jaardi, metri;
+metri = 100;
+jaardi = metri / 0.91;
+console.log(jaardi);
 
