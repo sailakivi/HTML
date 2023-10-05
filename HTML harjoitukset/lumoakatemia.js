@@ -74,5 +74,10 @@ for (let i = 0; < kauppalista.lenght; i++) {
     console.log(kauppalista[i]);
 }
 
+const nimet = ["Esko", "Mikko", "Sanna", "Aino", "Marja", "Petri"]
+console.log(nimet);
+
+
+
 
 
