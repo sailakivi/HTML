@@ -70,14 +70,34 @@ kauppalista.push("maito");
 kauppalista.push("kinkku");
 
 console.log(kauppalista);
-for (let i = 0; < kauppalista.lenght; i++) {
+for (let i = 0; i < kauppalista.lenght; i++) {
     console.log(kauppalista[i]);
 }
 
-const nimet = ["Esko", "Mikko", "Sanna", "Aino", "Marja", "Petri"]
+const nimet = ["Esko", "Mikko", "Sanna", "Aino", "Marja"]
 console.log(nimet);
 
+const taulukko = [1, 2, 3, 4, 5];
+const pituus = taulukko.lengh;
+console.log(pituus);
 
+const nimet = ["Esko", "Mikko", "Sanna", "Aino", "Marja"];
+nimet.push("Petri");
+console.log(nimet);
 
+const taulukko1 = [1, 2, 3];
+const taulukko2 = [4, 5, 6];
+const yhdistettyTaulukko = taulukko1.concat(taulukko2);
+console.log(yhdistettyTaulukko);
 
+const numerot = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const parillisetNumerot = numerot.filter(numero => numero % 2 === 0);
+console.log(parillisetNumerot);
 
+const numerot = [5, 2, 9, 1, 5, 8, 3];
+numerot.sort((a, b) => a - b);
+console.log(numerot);
+
+const numerot = [1, 2, 3, 4, 5];
+const kaannettyTaulukko = numerot.reverse();
+console.log(kaannettyTaulukko);
