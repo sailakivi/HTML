@@ -63,5 +63,16 @@ metri = 100;
 jaardi = metri / 0.91;
 console.log(jaardi);
 
+let kauppalista[];
+
+kauppalista.push("banaani");
+kauppalista.push("maito");
+kauppalista.push("kinkku");
+
+console.log(kauppalista);
+for (let i = 0; < kauppalista.lenght; i++) {
+    console.log(kauppalista[i]);
+}
+
 
 
