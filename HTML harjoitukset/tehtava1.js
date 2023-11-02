@@ -6,7 +6,7 @@ function jarjesta() {
     document.write("Annoit numerot: " + numero1 + " " + numero2 + " " + numero3 + "<br>");
 
     if (numero1 < numero2 && numero1 < numero3) {
-        k
+        
         if (numero2 < numero3) {
             document.write("Numerojen järjestys: " + numero1 + " " + numero2 + "" + numero3);
         }
@@ -35,34 +35,34 @@ function jarjesta() {
     }
 }
 function etsi() {
-    var l1, l2, l3, l4, l5, suurin;
-    l1 = parseInt(document.getElementById("1").value);
-    l2 = parseInt(document.getElementById("2").value);
-    l3 = parseInt(document.getElementById("3").value);
-    l4 = parseInt(document.getElementById("4").value);
-    l5 = parseInt(document.getElementById("5").value);
+    var luku1, luku2, luku3, luku4, luku5, suurin;
+    luku1 = parseInt(document.getElementById("1").value);
+    luku2 = parseInt(document.getElementById("2").value);
+    luku3 = parseInt(document.getElementById("3").value);
+    luku4 = parseInt(document.getElementById("4").value);
+    luku5 = parseInt(document.getElementById("5").value);
 
-    if (l1 < l2 && l3 < l2 && l4 < l2 && l5 < l2) {
-        suurin = l2;
+    if (luku1 < luku2 && luku3 < luku2 && luku4 < luku2 && luku5 < luku2) {
+        suurin = luku2;
     }
 
-    else if (l1 < l3 && l4 < l3 && l5 < l3) {
-        suurin = l3;
+    else if (luku1 < luku3 && luku4 < luku3 && luku5 < luku3) {
+        suurin = luku3;
     }
 
-    else if (l1 < l4 && l5 < l4) {
-        suurin = l4;
+    else if (luku1 < luku4 && luku5 < luku4) {
+        suurin = luku4;
     }
 
-    else if (l1 < l5) {
-        suurin = l5;
+    else if (luku1 < luku5) {
+        suurin = luku5;
     }
 
     else {
-        suurin = l1;
+        suurin = luku1;
     }
 
-    document.write("Annoit luvut: " + l1 + " " + l2 + " " + l3 + " " + l4 + " " + l5);
+    document.write("Annoit luvut: " + luku1 + " " + luku2 + " " + luku3 + " " + luku4 + " " + luku5);
     document.write("<br>Suurin niistä on: " + suurin);
 }
 function paritonParillinen() {
@@ -79,13 +79,14 @@ function paritonParillinen() {
     }
 }
 function ajoneuvo() {
-    var ika = parseInt(document.getElementById("ika").value);
 
-    if (ika < 16) {
+    var ikä = parseInt(document.getElementById("ikä").value);
+
+    if (ikä < 16) {
         document.write("Voit ajaa polkupyörää");
     }
 
-    else if (ika < 18) {
+    else if (ikä < 18) {
         document.write("Voit ajaa mopoa");
     }
 

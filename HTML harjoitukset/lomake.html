@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+
+    <title>Lomakeharjoitus</title>
+    <link href="lomake.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Lomakeharjoitus</h1>
+
+    <fieldset>
+        <form id="eka">
+            <p<label>Anna etunimesi: <input type="text" name="etunimi"</label></p>
+            <p><label>Anna sukunimesi: <input type="text" name="sukunimi"</label></p>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <form id="toka">
+            <p><label>Tulin tänään kouluun:</label></p>
+            <input type="radio" value="jalan">Jalan<br />
+            <input type="radio" value="autolla">Autolla<br />
+            <input type="radio" value="junalla">Junalla<br />
+            <input type="radio" value="bussilla">Bussilla<br />
+            <input type="radio" value="mopolla">Mopolla<br />
+            <input type="radio" value="potkulaudalla">Potkulaudalla<br />
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <form id="kolmas">
+            <p>Lempituntini koulussa on:</p>
+            <p>
+                <select id="dropdown" name="dropdown">
+                    <option value=selected"" selected="selected"> Valitse alta oikea vaihtoehto </option>
+                    <option value="historia">Historia</option>
+                    <option value="matematiikka">Matematiikka</option>
+                    <option value="englanti">Englanti</option>
+                    <option value="ruotsi">Ruotsi</option>
+                    <option value="kotitalous">Kotitalous</option>
+                    <option value="äidinkieli">Äidinkieli</option>
+                </select>
+            </p>
+
+            <input type="submit" name="submit" value="Lähetä" />
+        </form>
+    </fieldset>
+
+</body>
+</html>
