@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utc-8" />
+    <title>LocalStorage</title>
+    <link href="paikallinen.css"  rel="stylesheet" />
+    <script src="paikallinen.js"></script>
+</head>
+<body>
+
+    <h2 id="otsikko">LocalStorage</h2>
+
+    <fieldset>
+        <input type="text" id="syöttöAvain" placeholder="Ole hyvä ja syötä avain:"/>
+        <input type="text" id="syöttöArvo" placeholder="Ole hyvä ja syötä arvo:"/>
+        <p></p>
+        <button type="button" id="syötä" onclick="syötä()">Syötä tiedot</button>
+        <button type="button" id="Näytä" onclick="luettele()">Näytä tiedot</button>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>LocalStorage</legend>
+        <div id="localSyöttö">
+
+        </div>
+
+    </fieldset>
+
+</body>
+</html>
